@@ -28,14 +28,12 @@ afford = NintendoWiisprice-(userMoney % NintendoWiisprice)
 print("You are lacking", afford, "to get another Nintendo Wiis")
 '''
 
-
 '''
+factorial=1
 x = int(input("Enter a number: "))
-diff=1
 for x in range(1, x+1):
-    diff = diff*x
-print("The factorial of", x,"is",diff)
-'''
+    factorial = factorial*x
+print("The factorial of", x,"is",factorial)'''
 
 '''  
 x = int(input("Enter a Number: "))
@@ -43,6 +41,7 @@ for a in range (1, x+1):
     if x%a ==0:
         print(a, "is a factor of ",x,".")
 '''
+
 factorlist =[]
 x= int(input("Enter A number: "))
 for a in range  (1, x+1):
